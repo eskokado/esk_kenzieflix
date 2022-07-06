@@ -1,0 +1,164 @@
+/* ESTILO GERAIS */
+body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+figcaption{
+  display: none;
+}
+img {
+  max-width: 1200px;
+}
+/* ESTILO CABECALHO */
+.cabecalho {
+
+}
+
+/* ESTILO LOGO */
+.cabecalho .cabecalho__logo {
+
+}
+
+.cabecalho .cabecalho__logo img{
+
+}
+
+/* ESTILO MENU */
+.cabecalho .cabecalho__menu {
+
+}
+
+.cabecalho .cabecalho__menu ul{
+  
+}
+
+.cabecalho .cabecalho__menu li {
+  
+}
+
+.cabecalho .cabecalho__menu a {
+  
+}
+
+/* ESTILO AREA DE CONFIGURAÇÃO */
+.cabecalho .cabecalho__menu_configuracao {
+  
+}
+.cabecalho .cabecalho__menu_configuracao ul {
+  
+}
+.cabecalho .cabecalho__menu_configuracao li {
+  
+}
+.cabecalho .cabecalho__menu_configuracao a {
+  
+}
+
+/* ESTILO CONTEÚDO PRINCIPAL */
+main{
+
+}
+
+/* ESTILO SEÇÃO DESTAQUE */
+.secao_destaque{
+
+}
+
+/* ESTILO SEÇÃO IMAGEM DESTAQUE */
+.secao_destaque .secao_destaque_imagem_destaque{
+
+}
+.secao_destaque .secao_destaque_imagem_destaque img{
+
+}
+
+/* ESTILO CONTEÚDO DESTAQUE */
+.secao_destaque .secao_destaque__descricao_destaque{
+
+}
+.secao_destaque .secao_destaque__descricao_destaque h1{
+
+}
+.secao_destaque .secao_destaque__descricao_destaque p{
+
+}
+
+/* ESTILO NAVEGAÇÃO DESTAQUE */
+.secao_destaque .secao_destaque__navegacao_destaque{
+
+}
+.secao_destaque .secao_destaque__navegacao_destaque a{
+
+}
+
+/* ESTILO SECAO FILMES */
+.secao_filmes {
+
+}
+.secao_filmes h2{
+  
+}
+
+.secao_filmes .secao_filmes__lista_filmes{
+  
+}
+.secao_filmes .secao_filmes__lista_filmes ul{
+  
+}
+.secao_filmes .secao_filmes__lista_filmes ul li{
+  
+}
+.secao_filmes .secao_filmes__lista_filmes ul figure{
+  
+}
+.secao_filmes .secao_filmes__lista_filmes ul img{
+  
+}
+
+/* ESTILO RODAPE */
+.rodape{
+
+}
+/* ESTILO RODAPE MIDIAS SOCIAIS */
+.rodape .rodape__midias_sociais{
+  
+}
+.rodape .rodape__midias_sociais ul{
+  
+}
+.rodape .rodape__midias_sociais ul li{
+  
+}
+.rodape .rodape__midias_sociais ul a{
+  
+}
+.rodape .rodape__midias_sociais ul img{
+  
+}
+
+/* ESTILO RODAPE MENU NAVEGAÇÃO */
+.rodape .rodape__menu_navegacao{
+  
+}
+.rodape .rodape__menu_navegacao ul{
+  
+}
+.rodape .rodape__menu_navegacao ul li{
+  
+}
+.rodape .rodape__menu_navegacao ul li a{
+  
+}
+
+.rodape .rodape__link_codigo{
+  
+}
+
+.rodape p{
+  
+}
