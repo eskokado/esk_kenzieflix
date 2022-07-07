@@ -119,7 +119,10 @@ main{
   border-radius: 3px;
   display: inline-block;
 }
-
+.secao_destaque .secao_destaque__navegacao_destaque a.secao_destaque__navegacao_destaque--transparente {
+  color: #fff;
+  background-color: rgb(255 255 255 / 30%);
+}
 /* ESTILO SECAO FILMES */
 .secao_filmes {
   background-color: #141414;
@@ -136,6 +139,7 @@ main{
   display: flex;
   flex-wrap: nowrap;  
   overflow-x: scroll;
+  margin-top: 10px;
 }
 .secao_filmes .secao_filmes__lista_filmes ul{
 }
@@ -193,6 +197,16 @@ main{
 
 .rodape p{
   
+}
+
+*::-webkit-scrollbar {
+    width: 9px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #141414;
 }
 
 @media screen and (min-width: 620px) {
@@ -256,4 +270,9 @@ main{
     color: white;
     font-size: 0.8rem;
   }
+  .secao_destaque .secao_destaque__navegacao_destaque a img {
+      vertical-align: middle;
+      margin-right: 16px;
+      display: inline-block;
+  }  
 }
