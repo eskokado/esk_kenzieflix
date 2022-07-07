@@ -16,12 +16,13 @@ img {
 }
 /* ESTILO CABECALHO */
 .cabecalho {
-
+  background: #141414;
+  padding: 16px 0;
 }
 
 /* ESTILO LOGO */
 .cabecalho .cabecalho__logo {
-
+  text-align: center;
 }
 
 .cabecalho .cabecalho__logo img{
@@ -31,6 +32,10 @@ img {
 /* ESTILO MENU */
 .cabecalho .cabecalho__menu {
 
+}
+
+.cabecalho .cabecalho__menu, .cabecalho__menu_configuracao {
+  display: none;
 }
 
 .cabecalho .cabecalho__menu ul{
@@ -74,7 +79,7 @@ main{
 
 }
 .secao_destaque .secao_destaque_imagem_destaque img{
-
+  width: 100%;
 }
 
 /* ESTILO CONTEÚDO DESTAQUE */
