@@ -6,6 +6,7 @@ body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
   list-style: none;
   text-decoration: none;
   outline: none;
+  font-family: 'Roboto Serif', serif;
 }
 
 figcaption{
@@ -71,12 +72,16 @@ main{
 
 /* ESTILO SEÇÃO DESTAQUE */
 .secao_destaque{
-
+  background-image: url(../img/destaque.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 20px 22px
 }
 
 /* ESTILO SEÇÃO IMAGEM DESTAQUE */
 .secao_destaque .secao_destaque_imagem_destaque{
-
+  display: none;
 }
 .secao_destaque .secao_destaque_imagem_destaque img{
   width: 100%;
@@ -84,13 +89,18 @@ main{
 
 /* ESTILO CONTEÚDO DESTAQUE */
 .secao_destaque .secao_destaque__descricao_destaque{
-
+  color: white;
 }
 .secao_destaque .secao_destaque__descricao_destaque h1{
 
 }
+.secao_destaque .secao_destaque__descricao_destaque h1 img{
+  width: 100%;
+  max-width: 180px; 
+}
 .secao_destaque .secao_destaque__descricao_destaque p{
-
+  margin: 10px 0;
+  font-size: 0.8rem;
 }
 
 /* ESTILO NAVEGAÇÃO DESTAQUE */
@@ -98,7 +108,12 @@ main{
 
 }
 .secao_destaque .secao_destaque__navegacao_destaque a{
-
+  font-size: 0.8rem;
+  background-color: white;
+  color: black;
+  padding: 7px 15px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 /* ESTILO SECAO FILMES */
