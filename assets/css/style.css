@@ -67,7 +67,7 @@ img {
 
 /* ESTILO CONTEÚDO PRINCIPAL */
 main{
-
+  background-color: #141414;
 }
 
 /* ESTILO SEÇÃO DESTAQUE */
@@ -118,41 +118,47 @@ main{
 
 /* ESTILO SECAO FILMES */
 .secao_filmes {
-
+  background-color: #141414;
+  color: #e5e5e5e5;
+  padding: 0 20px;
+  overflow-x: hidden;
+  margin-top: 20px;
 }
 .secao_filmes h2{
-  
+  font-size: 1.1rem;
 }
 
 .secao_filmes .secao_filmes__lista_filmes{
-  
+  display: flex;
+  flex-wrap: nowrap;  
+  overflow-x: scroll;
 }
 .secao_filmes .secao_filmes__lista_filmes ul{
-  
 }
-.secao_filmes .secao_filmes__lista_filmes ul li{
-  
+.secao_filmes .secao_filmes__lista_filmes li{
+  margin-right: 10px;  
 }
 .secao_filmes .secao_filmes__lista_filmes ul figure{
   
 }
 .secao_filmes .secao_filmes__lista_filmes ul img{
-  
 }
 
 /* ESTILO RODAPE */
 .rodape{
-
+  padding: 0 20px;
+  margin-top: 30px;
+  color: #808080;
+  background-color: #141414;
 }
 /* ESTILO RODAPE MIDIAS SOCIAIS */
 .rodape .rodape__midias_sociais{
-  
 }
 .rodape .rodape__midias_sociais ul{
-  
+  display: flex;  
 }
 .rodape .rodape__midias_sociais ul li{
-  
+  margin-right: 8px;  
 }
 .rodape .rodape__midias_sociais ul a{
   
@@ -163,20 +169,22 @@ main{
 
 /* ESTILO RODAPE MENU NAVEGAÇÃO */
 .rodape .rodape__menu_navegacao{
-  
+  margin: 16px 0;
 }
 .rodape .rodape__menu_navegacao ul{
   
 }
 .rodape .rodape__menu_navegacao ul li{
-  
 }
 .rodape .rodape__menu_navegacao ul li a{
-  
+  color: #808080;
 }
 
 .rodape .rodape__link_codigo{
-  
+  color: #808080;
+  border: 1px solid;
+  padding: 9px 15px;
+  display: inline-block;
 }
 
 .rodape p{
